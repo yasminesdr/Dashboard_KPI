@@ -1,0 +1,299 @@
+.pg-viewer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.pg-viewer-container h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+/* Connection form styling */
+.pg-config-form {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 12px 20px;
+  margin-bottom: 30px;
+  background-color: #f9f9f9;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pg-config-form label {
+  font-weight: 500;
+  color: #444;
+  align-self: center;
+}
+
+.pg-config-form input {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 14px;
+  background-color: whitesmoke;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  color: black;
+  transition: border-color 0.3s ease;
+}
+
+.pg-config-form input::placeholder {
+  color: #0056b3;
+}
+
+.pg-config-form input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.4);
+}
+
+.pg-config-form button {
+  grid-column: 2 / 3;
+  padding: 12px 14px;
+  font-size: 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pg-config-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Section blocks like tables, queries, charts */
+.pg-tables-section,
+.pg-chart-options,
+.pg-chart-output {
+  margin-top: 40px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Headings inside sections */
+.pg-tables-section h3,
+.pg-query-builder h3,
+.pg-chart-options h3,
+.pg-chart-output h3 {
+  font-size: 22px;
+  margin-bottom: 18px;
+  color: #1b1b1b;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 6px;
+}
+
+/* Labels and selects */
+.pg-tables-section label,
+.pg-chart-options label {
+  font-weight: 500;
+  color: #444;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.pg-tables-section select,
+.pg-chart-options select {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 14px;
+  background-color: whitesmoke;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  color: black;
+  margin-bottom: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.pg-tables-section select:focus,
+.pg-chart-options select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.4);
+}
+
+/* Buttons inside sections */
+.pg-tables-section button,
+.pg-query-button {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 12px;
+}
+
+.pg-tables-section button:hover{
+  background-color: #0056b3;
+}
+.pg-query-builder {
+  margin-top: 40px;
+  background-color: #fff;
+  padding: 20px 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.pg-query-builder h3 {
+  font-size: 22px;
+  margin-bottom: 18px;
+  color: #1b1b1b;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 6px;
+}
+
+.pg-query-builder label {
+  font-weight: 500;
+  color: #444;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.pg-query-builder select,
+.pg-query-builder input,
+.pg-query-builder textarea {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 14px;
+  background-color: whitesmoke;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  color: black;
+  margin-bottom: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.pg-query-builder select:focus,
+.pg-query-builder input:focus,
+.pg-query-builder textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.4);
+}
+
+.pg-query-builder button {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pg-query-builder button:hover {
+  background-color: #0056b3;
+}
+.pdf-export-inline {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 30px;
+  background-color: #fff;
+  padding: 16px 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 100%;
+  flex-wrap: wrap;
+}
+
+.pdf-export-inline input {
+  padding: 10px 14px;
+  font-size: 14px;
+  background-color: whitesmoke;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  color: black;
+  transition: border-color 0.3s ease;
+  width: 250px;
+  flex-shrink: 0;
+}
+
+.pdf-export-inline input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.4);
+}
+
+.pdf-export-inline button {
+  padding: 12px 16px;
+  font-size: 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.pdf-export-inline button:hover {
+  background-color: #0056b3;
+}
+
+
+@media (max-width: 600px) {
+  .pg-viewer-container {
+    padding: 20px 15px;
+  }
+
+  .pg-config-form {
+    grid-template-columns: 1fr;
+  }
+
+  .pg-config-form button {
+    grid-column: auto;
+    margin-top: 12px;
+  }
+
+  .pg-tables-section button {
+    margin-bottom: 15px;
+  }
+}
+.chart-type-selector {
+  margin: 1rem 0;
+}
+
+.chart-type-label {
+  margin-right: 1.5rem; /* spacing between checkboxes */
+  cursor: pointer;
+  user-select: none;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #343a40; /* Bootstrap dark text */
+  transition: color 0.2s ease;
+}
+
+.chart-type-label:hover {
+  color: #0d6efd; /* Bootstrap primary blue on hover */
+}
+
+.form-check-input {
+  margin-top: 0.2rem;
+  margin-right: 0.3rem;
+  cursor: pointer;
+  width: 1.15em;
+  height: 1.15em;
+}

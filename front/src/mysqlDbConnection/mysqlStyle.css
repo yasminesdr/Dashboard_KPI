@@ -1,0 +1,79 @@
+.mysql-viewer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.mysql-viewer h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.mysql-viewer label {
+  font-weight: 500;
+  color: #444;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.mysql-viewer input,
+.mysql-viewer select {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 14px;
+  background-color: whitesmoke;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  color: black;
+  margin-bottom: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.mysql-viewer input:focus,
+.mysql-viewer select:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.4);
+}
+
+.mysql-viewer button {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 12px;
+}
+
+.mysql-viewer button:hover {
+  background-color: #0056b3;
+}
+
+.mysql-viewer h3 {
+  font-size: 22px;
+  margin: 30px 0 18px;
+  color: #1b1b1b;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 6px;
+}
+
+@media (max-width: 600px) {
+  .mysql-viewer {
+    padding: 20px 15px;
+  }
+
+  .mysql-viewer button {
+    margin-bottom: 15px;
+  }
+}

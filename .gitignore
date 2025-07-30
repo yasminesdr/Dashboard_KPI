@@ -1,0 +1,44 @@
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+back/node_modules/
+front/node_modules/
+
+# Optional build output
+dist/
+build/
+
+# dotenv environment variables
+.env
+.env.*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test coverage
+coverage/
+
+# Parcel, Webpack, or other build tools
+.cache/
+.next/
+out/
+
+# Optional: lock files
+package-lock.json
+yarn.lock
